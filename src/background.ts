@@ -1,4 +1,6 @@
 export {}
-console.log(
-  "You may find that having is not so pleasing a thing as wanting. This is not logical, but it is often true."
-)
+
+// Optional: Add background functionality here if needed
+chrome.runtime.onInstalled.addListener(() => {
+  console.log("Autofill extension installed")
+})
